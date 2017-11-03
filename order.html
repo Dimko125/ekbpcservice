@@ -1,0 +1,49 @@
+<html>
+	<link rel="stylesheet" type="text/css" href="styleMain.css"/>
+	<script type="text/javascript" src="SendOrder.js"></script>
+	<script type="text/javascript" src="PutOrder.js"></script>
+	<script type="text/javascript" src="TopPanelCreator.js"></script>
+	<link rel="shortcut icon" href="kotik.png"/> 
+	<title>Заказ</title>
+	
+	<body onload="PutOrder(); CreateTopPanel();">
+		
+		<div class="all">
+			<div class="topPanel">
+			</div>
+			
+			<div class="orderBlank">
+				<div>
+					<span>Имя</span>
+					<br>
+					<input id="name">
+					</input>
+					<br>
+					
+					<span>Контактная информация</span> <contactInfo>(тел. номер, скайп, вконтакте, почта, ICQ)</contactInfo>
+					<br>
+					<input id="cont">
+					</input>
+					<br>
+					
+					<span>Ваш адрес</span>
+					<br>
+					<input id="addr">
+					</input>
+					<br>
+					
+					<span>Опишите род проблемы</span>
+					<br>
+					<textarea id="prob"></textarea>
+					<br>
+					
+					<button onclick="SendOrder();">Отправить</button>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</body>
+</html>

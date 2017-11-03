@@ -1,0 +1,134 @@
+<html>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styleMain.css"/>
+	<script type="text/javascript" src="ForwardOrder.js"></script>
+	<script type="text/javascript" src="TopPanelCreator.js"></script>
+	
+	<title>Услуги</title>
+	<link rel="shortcut icon" href="kotik.png"/>
+	
+	<body onload="CreateTopPanel();">
+		<div class="all">
+			<div class="topPanel">
+			</div>
+			
+			<div class="serviceBody">
+			
+				<div id="wifi">
+					<img src="Pics/150x150/wifi.png"/>
+					<span>от 350р</span>
+					<div>
+						<span>WIFI</span>
+						<ul>
+							<li>
+								<span onclick="FillOrder('Подключить роутер и настроить его');">Подключение роутера к сети и настройка нового подключения</span>
+							</li>
+							<li>
+								<span onclick="FillOrder('Настроить раздачу WiFi');">Настройка Wi-Fi раздачи в Вашем доме</span>
+							</li>
+							<li>
+								<span onclick="FillOrder('');">И др.</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div id="pc">
+					<img src="Pics/150x150/pc2.png"/>
+					<span>от 430р</span>
+					<div>
+						<span>Системный блок</span>
+						<ul>
+							<li>
+								<span onclick="FillOrder('Почистить системный блок');">Чистка системного блока от пыли</span>
+							</li>
+							<li>
+								<span onclick="FillOrder('Собрать системный блок');">Сборка</span>
+							</li>
+							<li>
+								<span onclick="FillOrder('Заменить деталь');">Замена неисправных компонентов</span>
+							</li>
+							<li>
+								<span onclick="FillOrder('Поменять охлаждение');">Замена системы охлаждения</span>
+							</li>
+							<li>
+								<span onclick="FillOrder('Поменять термопасту');">Замена термопасты</span>
+							</li>
+							<li>
+								<span onclick="FillOrder('');">И др.</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div id="laptop">
+					<img src="Pics/150x150/nout.png"/>
+					<span>от 400р</span>
+					<div>
+						<span>Ноутбук</span>
+						<ul>
+							<li>
+								<span onclick="FillOrder('Почистить ноутбук от пыли');">Чистка ноутбука от пыли</span>
+							</li>
+							<li>
+								<span onclick="FillOrder('Собрать ноутбук');">Сборка</span>
+							</li>
+							<li>
+								<span onclick="FillOrder('Поменять неисправную деталь в нуотбуке');">Замена неисправных компонентов</span>
+							</li>
+							<li>
+								<span onclick="FillOrder('Поменять охлаждение в ноутбуке');">Замена системы охлаждения</span>
+							</li>
+							<li>
+								<span onclick="FillOrder('Поменять термопасту в ноутбуке');">Замена термопасты</span>
+							</li>
+							<li>
+								<span onclick="FillOrder('');">И др.</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div id="secure">
+					<img src="Pics/150x150/secure.png"/>
+					<span>от 200р</span>
+					<div>
+						<span>Безопасность</span>
+						<ul>
+							<li>
+								<span onclick="FillOrder('Установить антивирусник');">Установка антивирусной программы</span>
+							</li>
+							<li>
+								<span onclick="FillOrder('Настроить антивирусник');">Настройка антивируса</span>
+							</li>
+							<li>
+								<span onclick="FillOrder('');">И др.</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div id="virus">
+					<img src="Pics/150x150/virus.png"/>
+					<span>от 380р</span>
+					<div>
+						<span>Вирусы</span>
+						<ul>
+							<li>
+								<span onclick="FillOrder('Удалить вирус, блокирующий мой компьютер');">Удаление блокирующих вирусов </span>
+							</li>
+							<li>
+								<span onclick="FillOrder('Проверить на наличие вирусов и очистить');">Чистка от вирусного ПО</span>
+							</li>
+							<li>
+								<span>И др.</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</body>
+</html>
